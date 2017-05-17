@@ -1,6 +1,6 @@
 # Slash
 
-Ffmpeg-based video file splitter.
+FFmpeg-based video file splitter.
 
 ## Features
 
@@ -10,11 +10,7 @@ Ffmpeg-based video file splitter.
 
 ## Installation
 
-Install ffmpeg.
-
-```bash
-sudo apt install ffmpeg
-```
+Install [FFmpeg](https://ffmpeg.org/download.html).
 
 Install the [DMD 2 compiler](https://dlang.org/download.html).
 
