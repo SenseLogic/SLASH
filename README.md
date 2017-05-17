@@ -4,7 +4,7 @@ FFmpeg-based video file splitter.
 
 ## Features
 
-* Splits a video file into several sections by executing ffmpeg commands.
+* Splits a video file into several sections by executing FFmpeg commands.
 * Don't re-encode the streams, unless asked to do so.
 * Maintains an increasing section index, which can be inserted in the section names.
 
@@ -71,7 +71,7 @@ seconds (3)
 slash input_file.mp4 output_prefix_ 0 "??_lesson" 1.1 "*_summary" 2:2.2 "@2??_lesson" 3:3.3 "!??_summary" 4:4.4 "@@04^^!!!\!??_lesson" 1:59:59.999 "!\!??_summary" 2:1:1.001
 ```
 
-Generates and executes the following commands :
+Executes the following FFmpeg commands :
 
 ```bash
 ffmpeg -y -ss 0:0:0 -i input_file.mp4 -to 0:0:1.1 -c:v copy -c:a copy output_prefix_01_lesson.mp4
