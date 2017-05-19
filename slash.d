@@ -92,7 +92,7 @@ string GetDuration(
         duration_section_array,
         first_time_section_array,
         post_time_section_array;
-        
+
     first_time_section_array = first_time.GetLongTime().split( ':' );
     post_time_section_array = post_time.GetLongTime().split( ':' );
 
@@ -140,7 +140,7 @@ void SplitVideoFile(
         section_file_path,
         section_name,
         section_duration;
-        
+
     section_name = "";
     output_section_index = 0;
 
@@ -206,7 +206,7 @@ void SplitVideoFile(
 
         section_file_path = OutputFilePathPrefix ~ section_name ~ ".mp4";
 
-        command 
+        command
             = "ffmpeg -y -ss "
               ~ section_time.GetLongTime()
               ~ " -i "
@@ -281,7 +281,7 @@ void main(
                 SectionNameArray ~= argument;
             }
         }
-        
+
         SplitVideoFile();
     }
     else
@@ -318,6 +318,4 @@ void main(
 
         Abort( "Invalid arguments : " ~ argument_array.to!string() );
     }
-} 
-
-    
+}
