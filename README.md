@@ -17,7 +17,7 @@ Install the [DMD 2 compiler](https://dlang.org/download.html).
 Build the executable with the following command line :
 
 ```bash
-dmd slash.d
+dmd -m64 slash.d
 ```
 
 ## Command line
