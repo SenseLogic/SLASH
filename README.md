@@ -84,7 +84,7 @@ ffmpeg -y -ss 1:59:59.999 -i input_file.mp4 -to 0:1:1.002 -c:v copy -c:a copy ou
 
 ## Version
 
-0.1
+1.0
 
 ## Author
 
