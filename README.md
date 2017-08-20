@@ -1,3 +1,5 @@
+![](https://github.com/senselogic/SLASH/blob/master/LOGO/slash.png)
+
 # Slash
 
 FFmpeg-based video file splitter.
