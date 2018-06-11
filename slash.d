@@ -18,8 +18,6 @@
     along with Slash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-// == LOCAL
-
 // -- IMPORTS
 
 import core.stdc.stdlib : exit;
@@ -27,8 +25,6 @@ import std.conv;
 import std.process;
 import std.stdio;
 import std.string;
-
-// == GLOBAL
 
 // -- VARIABLES
 
