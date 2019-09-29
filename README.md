@@ -14,7 +14,7 @@ FFmpeg-based video file splitter.
 
 Install [FFmpeg](https://ffmpeg.org/download.html).
 
-Install the [DMD 2 compiler](https://dlang.org/download.html).
+Install the [DMD 2 compiler](https://dlang.org/download.html) (choosing the MinGW setup option on Windows).
 
 Build the executable with the following command line :
 
@@ -34,7 +34,7 @@ slash [options] input_file.mp4 output_prefix_ HH:MM:SS.mmm first_section_name HH
 ```bash
 --encode : re-encode audio and video streams
 --preview : preview the ffmpeg commands without executing them
-``` 
+```
 
 ### Time formats
 
